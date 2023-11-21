@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import order from "../assets/images/order-img.jpg";
+import { useNavigate } from "react-router-dom";
 
 const OrderSection = () => {
+  const navgate = useNavigate()
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-  const handleSubmit = () => {
-    setText(window.alert("Your Order has been placed successfully."));
+    alert("Your Order has been placed successfully.");
+    navgate("/")
   };
 
   return (

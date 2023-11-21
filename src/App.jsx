@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./Home";
 import Popular from "./components/Popular";
-import Gallery from "./components/Gallery";
 import Speciality from "./components/Speciality";
 import Cart from "./components/Cart";
 
